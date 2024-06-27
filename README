@@ -1,0 +1,19 @@
+1. set your kuberconfig.yaml 
+
+2. kubectl apply -f ray-cluster.yaml
+
+3. kubectl delete -f ray-cluster.yaml
+
+4. kubectl get pods -n ray
+
+5. kubectl describe pod -n ray raycluster-kuberay-head-6c5nl
+
+6. kubectl logs <pod-name> -n ray
+
+7. kubectl delete pod  -n ray kuberay-operator-6dddd689fb-qt8cm
+
+8. export KUBECONFIG=$(pwd)/kubeconfig.yaml
+
+9. docker build -t hoon33710/ray-xmrig:latest .
+
+10. docker push hoon33710/ray-xmrig:latest

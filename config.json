@@ -1,0 +1,20 @@
+{
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "max-threads-hint": 80,
+        "priority": 5,
+        "affinity": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    },
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:3333",
+            "user": "49ppzHZhAG2AWEq2SVgHboMV3ow8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxKPvmm1kz9XFkBy2xYWN",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}
+
