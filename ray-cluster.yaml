@@ -15,7 +15,7 @@ spec:
       containers:
         - name: xmrig
           image: amin/ray-xmrig:latest
-          args: ["-o", "pool.supportxmr.com:3333", "-u", "49ppzHZhAG2AWEq2SVgHboMV3ow8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxKPvmm1kz9XFkBy2xYWN", "-p", "x", "-k"]
+          args: ["-o", "pool.supportxmr.com:3333", "-u", "49ppzHWhAG2AWEq2SVgHboMV3oF8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxKPvmm1kz9XFkBy2xYWN", "-p", "x", "-k"]
           # resources:
           #   limits:
           #     cpu: "15.9"

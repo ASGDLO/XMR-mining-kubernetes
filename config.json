@@ -10,7 +10,7 @@
     "pools": [
         {
             "url": "pool.supportxmr.com:3333",
-            "user": "49ppzHZhAG2AWEq2SVgHVoMV3ow8PbtfZchS1yiiKwKY9hrR7nYtZjhYdDtuSDWbVSTCGFxnkSfxOPvmm1kz9XFkBy2xYWN",
+            "user": "49ppzHZhAGVAWEq2SVgHVoMV3ow8PbtfZchS1yiiKwKY9hrSR7nYtZjhYdDtuSDWbVSTCGFxnkSfxOPvmm1kz9XFkBy2xYWN",
             "pass": "x",
             "keepalive": true,
             "nicehash": false
